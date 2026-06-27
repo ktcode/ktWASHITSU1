@@ -41,10 +41,20 @@ difference()
     {
         translate([0, 0, -3.8]) cube([200, 100, 3.8+1]);
     }
-    #gawa();
+    gawa();
 
-    #translate([0, 0, 0]) rotate([90-45, 0, 0]) cube([200, 5, 5]);
-    #translate([0, 100, 0]) rotate([45, 0, 0]) cube([200, 5, 5]);
+    translate([0, 0, 0]) rotate([90-45, 0, 0]) cube([200, 5, 5]);
+    translate([0, 100, 0]) rotate([45, 0, 0]) cube([200, 5, 5]);
+    
+    //youji
+    #translate([-65/2, 25.6+0.5+5, -3.8+gap1+(3.8+1)/2]) rotate([0, 90, 0]) cylinder(h=65, r=3/2, $fn=100);
+    #translate([-65/2, 25.6+0.5+5+10, -3.8+gap1+(3.8+1)/2]) rotate([0, 90, 0]) cylinder(h=65, r=3/2, $fn=100);
+    #translate([-65/2, 25.6+21+9+0.5+5, -3.8+gap1+(3.8+1)/2]) rotate([0, 90, 0]) cylinder(h=65, r=3/2, $fn=100);
+    #translate([-65/2, 25.6+21+9+0.5+5+10, -3.8+gap1+(3.8+1)/2]) rotate([0, 90, 0]) cylinder(h=65, r=3/2, $fn=100);
+    #translate([200-65/2, 25.6+0.5+5, -3.8+gap1+(3.8+1)/2]) rotate([0, 90, 0]) cylinder(h=65, r=3/2, $fn=100);
+    #translate([200-65/2, 25.6+0.5+5+10, -3.8+gap1+(3.8+1)/2]) rotate([0, 90, 0]) cylinder(h=65, r=3/2, $fn=100);
+    #translate([200-65/2, 25.6+21+9+0.5+5, -3.8+gap1+(3.8+1)/2]) rotate([0, 90, 0]) cylinder(h=65, r=3/2, $fn=100);
+    #translate([200-65/2, 25.6+21+9+0.5+5+10, -3.8+gap1+(3.8+1)/2]) rotate([0, 90, 0]) cylinder(h=65, r=3/2, $fn=100);
 
 }
 }
